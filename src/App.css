@@ -1,7 +1,32 @@
 /* NAv BAr */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 .navbar-nav a{
   font-size: 18px;
 }
+.navbar-brand{
+  font-family: "Playwrite CU", cursive;
+}
+.navbar-nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: start;
+}
+.links-div{
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+/*end of navbar styling*/
+
 .carsousel-item img{
   height: 550px;
 }

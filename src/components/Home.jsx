@@ -27,14 +27,23 @@ export default function Home() {
           ></button>
         </div>
         <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src="./assets/banner1.jpg" className="d-block w-100" alt="banner 1" />
+          <div className="carousel-item carousel1 active">
+            <div className="carousel1"> 
+              <img src="./assets/banner1.gif" className="d-block w-45" alt="banner 1" />
+              <p>Everything You Need <br/>to Stay Stylish and Connected</p>
+            </div>
           </div>
-          <div className="carousel-item">
-            <img src="./assets/banner2.jpg" className="d-block w-100" alt="banner 2" />
+          <div className="carousel-item carousel2 ">
+            <div className="carousel2"> 
+              <img src="./assets/banner2.gif" className="d-block w-45" alt="banner 1" />
+              <p>Shop Fashion, Jewelry, and <br/>Electronics – All in One Place</p>
+            </div>
           </div>
-          <div className="carousel-item">
-            <img src="./assets/banner3.jpg" className="d-block w-100" alt="banner 3" />
+          <div className="carousel-item carousel3 ">
+          <div className="carousel3"> 
+              <img src="./assets/banner3.gif" className="d-block w-45" alt="banner 1" />
+              <p>Shop with Confidence<br/>Satisfaction Guaranteed</p>
+            </div>
           </div>
         </div>
         <button
@@ -47,7 +56,7 @@ export default function Home() {
           <span className="visually-hidden">Previous</span>
         </button>
         <button
-          className="carousel-control-next"
+          className="carousel-control-next carousel-arrow"
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"

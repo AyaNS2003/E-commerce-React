@@ -27,10 +27,32 @@
 }
 /*end of navbar styling*/
 
-.carsousel-item img{
-  height: 550px;
+.carousel1{
+  background-color: rgb(223, 224, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.carousel2{
+  background-color: #c7c7c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel3
+{
+  background-color: #100070;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.carousel3 p{
+  color: white;
+}
+.carousel-item p{
+  font-size: 50px;
+  margin: 20px;
+}
 .cartProductContainer{
   border: 1px solid #000;
   margin: 5px;

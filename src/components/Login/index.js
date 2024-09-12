@@ -6,7 +6,7 @@ export default function index() {
     
       <div className="container login">
         <div className="login-left">
-        <p className="display-1 text-center m-4">Login</p>
+        <p className="display-5 text-center m-4">Login</p>
           <form className="row g-3 needs-validation" novalidate>
             <div className="mb-3">
               <label for="exampleInputEmail1" className="form-label">

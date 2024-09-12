@@ -32,8 +32,8 @@ export default function CartProduct({ cartProduct, dispatch }) {
             +
           </button>
         </p>
-        <p>Item - Price: ₹ {cartProduct.price}</p>
-        <p>Sub - Total: ₹ {cartProduct.sub_total}</p>
+        <p>Item - Price: $ {cartProduct.price}</p>
+        <p>Sub - Total: $ {cartProduct.sub_total}</p>
       </div>
       <div
         className="col-md-2 d-flex p-2"

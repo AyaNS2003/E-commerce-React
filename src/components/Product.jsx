@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { addCart } from "../redux/action";
 import { useParams } from "react-router-dom";
-import { NavLink } from "react-router-dom";
 import Skeleton from "react-loading-skeleton";
 
 export default function Product() {
@@ -62,19 +61,17 @@ export default function Product() {
             Rating: {product.rating && product.rating.rate}
             <i className="fa fa-star"></i>
           </p>
-          <h3 className="display-6 fw-bold my-4">₹ {product.price}</h3>
+          <h3 className="display-6 fw-bold my-4">$ {product.price}</h3>
           <p className="lead">{product.description}</p>
           <button
-            className="btn btn-outline-dark px-4 py-2"
+            className="btn btn-outline-secondary px-4 py-2"
             onClick={() => {
               addProduct(product);
             }}
           >
-            Add to cart
+            Add to cart <i className="fa fa-shopping-cart me-1"></i>
           </button>
-          <NavLink to="/cart" className="btn btn-dark ms-2 px-3 py-2">
-            Go to cart
-          </NavLink>
+          
         </div>
       </>
     );

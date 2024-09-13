@@ -11,7 +11,7 @@ export default function NavBar() {
         <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
           <div className="navbar-nav">
 
-              <NavLink className="navbar-brand" to="/">Ecommerce</NavLink>
+              <NavLink className="navbar-brand" to="/">Trendy Treasures</NavLink>
               <button
                 class="navbar-toggler"
                 type="button"

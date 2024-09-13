@@ -1,7 +1,7 @@
 const Rights = () => {
     return ( 
         <div className="right">
-            <p style={{color:"white"}}>&copy; {new Date().getFullYear()} Your Company Name. All rights reserved.</p>
+            <p style={{color:"white"}}>&copy; {new Date().getFullYear()} Trendy Treasures. All rights reserved.</p>
         </div>
      );
 }

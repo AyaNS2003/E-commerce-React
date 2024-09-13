@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
     margin: 0;
+    padding: 0;
     font-family: "Nunito", sans-serif;
     color: #100070;
     -webkit-font-smoothing: antialiased;
@@ -161,5 +162,20 @@
 }
 .about-text{
   width: 50%;
-  font-size: 24px;
+  font-size: 18px;
+}
+.contact{
+  display: flex;
+  padding: 20px 100px;
+  align-items: center;
+  background-color: #a6a6a6;
+  height: 90vh;
+}
+.contact-form
+{
+  width: 50%;
+}
+.contact-img
+{
+  margin-left: 100px;
 }

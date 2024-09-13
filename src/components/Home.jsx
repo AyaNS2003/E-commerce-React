@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./About";
+import Contact from "./Contact"
 export default function Home() {
   return (
     <>
@@ -66,6 +67,7 @@ export default function Home() {
         </button>
       </div>
       <About/>
+      <Contact/>
     </>
   );
 }

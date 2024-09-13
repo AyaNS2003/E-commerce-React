@@ -1,5 +1,7 @@
 import React from "react";
 import { addCart, delCart, rmvCart } from "../../redux/action";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 export default function CartProduct({ cartProduct, dispatch }) {
   const handleRemove = () => {
     dispatch(rmvCart(cartProduct));
@@ -35,14 +37,12 @@ export default function CartProduct({ cartProduct, dispatch }) {
         <p>Item - Price: $ {cartProduct.price}</p>
         <p>Sub - Total: $ {cartProduct.sub_total}</p>
       </div>
+      <button type="button" class="btn-close" aria-label="Close" onClick={handleRemove}></button>
       <div
         className="col-md-2 d-flex p-2"
         style={{ flexDirection: "column", justifyContent: "space-around" }}
       >
-        <button className="btn btn-outline-danger" onClick={handleRemove}>
-          Remove
-        </button>
-        {/* <button className="btn btn-light">Buy Now</button> */}
+        
       </div>
     </div>
   );

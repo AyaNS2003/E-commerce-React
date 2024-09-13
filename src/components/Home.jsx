@@ -1,5 +1,5 @@
 import React from "react";
-import Products from "./Products";
+import About from "./About";
 export default function Home() {
   return (
     <>
@@ -65,7 +65,7 @@ export default function Home() {
           <span className="visually-hidden">Next</span>
         </button>
       </div>
-      <Products />
+      <About/>
     </>
   );
 }

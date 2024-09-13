@@ -6,7 +6,7 @@ export default function index() {
       
       <div className="container register">
         <div className="signup-left">
-          <img src='./assets/Sign up.gif'/>
+          <img src='../assets/Sign up.gif'/>
         </div>
 
         <div className="signup-right">

@@ -31,7 +31,7 @@ export default function Home() {
         <div className="carousel-inner">
           <div className="carousel-item carousel1 active">
             <div className="carousel1"> 
-              <img src="./assets/banner1.gif" className="d-block w-45" alt="banner 1" />
+              <img src="/assets/banner1.gif" className="d-block w-45" alt="banner 1" />
               <p>Everything You Need <br/>to Stay Stylish and Connected</p>
             </div>
           </div>

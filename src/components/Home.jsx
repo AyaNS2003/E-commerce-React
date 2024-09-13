@@ -1,6 +1,7 @@
 import React from "react";
 import About from "./About";
 import Contact from "./Contact"
+import Rights from "./Rights"
 export default function Home() {
   return (
     <>
@@ -68,6 +69,7 @@ export default function Home() {
       </div>
       <About/>
       <Contact/>
+      <Rights/>
     </>
   );
 }

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/E-commerce-React/static/css/main.8564770c.css",
+    "main.js": "/E-commerce-React/static/js/main.bfe182f0.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/E-commerce-React/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/bootstrap-icons.woff?": "/E-commerce-React/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/fontawesome-webfont.eot": "/E-commerce-React/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/E-commerce-React/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/bootstrap-icons.woff2?": "/E-commerce-React/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/E-commerce-React/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/E-commerce-React/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/E-commerce-React/index.html",
+    "main.8564770c.css.map": "/E-commerce-React/static/css/main.8564770c.css.map",
+    "main.bfe182f0.js.map": "/E-commerce-React/static/js/main.bfe182f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8564770c.css",
+    "static/js/main.bfe182f0.js"
+  ]
+}
